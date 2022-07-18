@@ -107,4 +107,8 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
+<<<<<<< HEAD
 --------
+=======
+--------
+>>>>>>> bd4d6f51c2a859e00d3108a89f6d22c4478abeaa
