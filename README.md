@@ -47,15 +47,17 @@ Dynamic Dashboard : Delivery 3 and delivery 4
 1. Covid-19 dashboard prototype developed following the video lecture from Prof. Dr. Kienle. 
 
 Static look of the Covid-19 dashboard prototype. 
+![plot](plots/delivery2_dynamicDashboard_covidInfection.PNG)
 
 2. SIR virus spread model has to be implemented in the dynamic dashboard (DASH implementation).
 
 Static look of SIR virus spread dashboard prototype. 
+![plot](plots/delivery3_dynamicDashboard_SIRvirusSpreadModel.PNG)
 
 3. Both delivery 1 and delivery 2 combined as a single dashboard. 
 
 Static look of combined dashboard prototype. 
-
+![plot](plots/delivery3_4_combined.PNG)
 
 Project Organization
 ------------
