@@ -1,11 +1,64 @@
 ADS_COVID-19
 ==============================
+Applied data science on COVIID 19 data (Enterprise Data Science 2022) as a part of lecture in TU Kaiserslautern. 
 
-Applied data science on COVIID 19 data (Enterprise Data Science 2022) 
+
+Goals
+----
+1.  Transport best practices from industry to develope a COVID-19 analysis prototype. 
+
+    Utilisation of CRISP-DM process for bussiness model. 
+
+    ![plot](notebooks/CRISP_DM.png)
+
+    The CRISP-DM process model involves the following steps: 
+
+    • Business understanding
+    • Data Understanding
+    • Data Preparation
+    • Modeling (statistical and machine learning)
+    • Deployment
+
+2.  Analyse the confirmed cases for all the countries
+3.  Calculation the doubling rate, filtered.
+4.  Simulate the spread of COVID-19using SIR modelfor any country.
+5.  Create a user friendly dashboard, which shows the current count of confirmed cases, doubling rate and SIR model.
+6. Create a world map for covid infected data as an animation.
+
+Dataset sources 
+----------------
+1. RKI, webscrape (webscraping) https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html
+2. John Hopkins (GITHUB) https://github.com/CSSEGISandData/COVID-19.git
+3. Our world in data (https://covid.ourworldindata.org/data/owid-covid-data.csv)
+
+Static Visualisations : Delivery 1
+----------------------------------
+
+1. The relative cases overtime of Covid infectors (absolut Covid cases/population size) as static visualization fro 3 countries. 
+
+![plot](plots/relativeCovidInfectors_staticVisualiztaion_threeCountries.png)
+ 
+2. The vaccination rate (percentage of the population) over time for 3 countries. 
+
+![plot](plots/vaccinationRate_staticVisualiztaion_threeCountries.png)
+
+Dynamic Dashboard : Delivery 3 and delivery 4
+---------------------------------------------
+1. Covid-19 dashboard prototype developed following the video lecture from Prof. Dr. Kienle. 
+
+Static look of the Covid-19 dashboard prototype. 
+
+2. SIR virus spread model has to be implemented in the dynamic dashboard (DASH implementation).
+
+Static look of SIR virus spread dashboard prototype. 
+
+3. Both delivery 1 and delivery 2 combined as a single dashboard. 
+
+Static look of combined dashboard prototype. 
+
 
 Project Organization
 ------------
-
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
@@ -17,9 +70,11 @@ Project Organization
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── projectdelivery_sourcecode_notebooks  <- Notebooks for delivery 1,2 and 3 with the source code.
+    ├── plots              <- static visualisation for deliveries
+    ├── models             <- Trained and serialized models, model predictions, or model summaries (e.g. SIR model fit)
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    ├── notebooks          <- Jupyter notebooks taking assistance from lecture
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
@@ -53,5 +108,3 @@ Project Organization
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
