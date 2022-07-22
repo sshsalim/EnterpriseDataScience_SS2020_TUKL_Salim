@@ -1,0 +1,11 @@
+Name: Sabin Hamed Salim
+Matriculation number: 414565
+
+Source code notebooks for each delivery: 
+
+
+Delivery 1 and 2: first_project_delivery_staticVisualization.ipynb
+
+Delivery 3: Evaluation_Walk_through.ipynb
+Delivery 4: first_project_delivery_staticVisualization.ipynb
+Delivery 3 and 4 combined:EvaluationWalkthrough_COVID19_SIR_Modelling_combined.ipynb
