@@ -72,7 +72,7 @@ Project Organization
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── projectdelivery_sourcecode_notebooks  <- Notebooks for delivery 1,2 3 and 4 with the source code.
+    ├── projectdelivery_sourcecode_notebooks  <- Notebooks for delivery 1, 2, 3 and 4 with the source code.
     ├── plots              <- static visualisation for deliveries
     ├── models             <- Trained and serialized models, model predictions, or model summaries (e.g. SIR model fit)
     │
